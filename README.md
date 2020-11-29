@@ -8,10 +8,15 @@ State é um padrão de design comportamental que permite que um objeto altere se
 O padrão State é uma solução para o problema de como fazer o comportamento depender do estado.
 
 -Defina uma classe de "contexto" para apresentar uma única interface para o mundo exterior.
+
 -Defina uma classe base abstrata State.
+
 -Representam os diferentes "estados" da máquina de estado como classes derivadas da classe base State.
+
 -Defina o comportamento específico do estado nas classes derivadas de estado apropriadas.
+
 -Manter um ponteiro para o "estado" atual na classe "contexto".
+
 -Para alterar o estado da máquina de estado, altere o ponteiro de "estado" atual.
 
 - Estrutura:
